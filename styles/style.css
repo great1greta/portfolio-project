@@ -67,6 +67,7 @@ p {
 .content {
   margin: 30px;
 }
+
 .content h1 {
   font-size: 64px;
   line-height: 80px;
@@ -164,6 +165,15 @@ footer .social-links a:hover {
 
   h2 {
     font-size: 34px;
+  }
+
+  .content h1 {
+    font-size: 30px;
+    line-height: 1.5;
+  }
+
+  .content h2 {
+    font-size: 15px;
   }
 
   .project-description {
