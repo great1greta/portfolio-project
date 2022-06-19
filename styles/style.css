@@ -41,6 +41,12 @@ p {
   margin: 0;
 }
 
+.wrapper {
+  display: block;
+  margin: 0 auto;
+  max-width: 90%;
+}
+
 .hero {
   background: var(--secondary-color);
   text-align: center;
@@ -107,7 +113,7 @@ p {
 }
 
 .project-description {
-  padding: 120px 60px;
+  padding: 100px 60px;
 }
 
 .active {
@@ -155,6 +161,24 @@ footer .social-links a {
 footer .social-links a:hover {
   color: white;
   background: var(--branding-color);
+}
+
+.contact-block p {
+  font-size: 24px;
+}
+
+.take-a-look,
+.contact-block {
+  background: var(--secondary-color);
+  padding: 45px;
+  border-radius: 10px;
+}
+
+.signature {
+  text-align: center;
+  margin-top: 65px;
+  opacity: 0.6;
+  font-size: 15px;
 }
 
 @media (max-width: 900px) {
