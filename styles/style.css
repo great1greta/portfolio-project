@@ -218,4 +218,8 @@ footer .social-links a:hover {
   footer .email-link {
     font-size: 18px;
   }
+
+  .wrapper .row {
+    display: block;
+  }
 }
